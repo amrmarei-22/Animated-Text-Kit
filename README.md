@@ -194,12 +194,7 @@ Row(
       style: TextStyle(fontSize: 43.0),
     ),
     const SizedBox(width: 20.0, height: 100.0),
-    DefaultTextStyle(
-      style: const TextStyle(
-        fontSize: 40.0,
-        fontFamily: 'Horizon',
-      ),
-      child: AnimatedTextKit(
+    AnimatedTextKit(
         animatedTexts: [
           RotateAnimatedText('AWESOME'),
           RotateAnimatedText('OPTIMISTIC'),
@@ -209,7 +204,7 @@ Row(
           print("Tap Event");
         },
       ),
-    ),
+    
   ],
 );
 ```
